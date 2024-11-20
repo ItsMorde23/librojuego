@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #aa9c9cb2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+#ImagenPresentacion {
+    width: 100vw; 
+    height: 50vh; 
+    object-fit: fill; 
+    display: block; 
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex: 1;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.presentacionYFormulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.presentacion {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#Prologo, #Reseña {
+    text-align: left;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*Formulario*/
+.formulario {
+    flex-shrink: 0; 
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 10px solid black;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+.formulario h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputform {
+    width: 100%;
+    padding: 12px; /* Consistencia en el padding */
+    border-radius: 4px;
+    font-size: 14px; /* Misma fuente para todos */
+    border: 1px solid #ccc;
+}
+
+.inputform[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.inputform[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/*Puntaje*/
+.puntajes {
+    text-align: center;
+}
+
+.tabla {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.tabla th {
+    background-color: #530101;
+    color: #fcf9f9;
+    text-align: center;
+    padding: 8px;
+}
+
+.tabla td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabla tr:hover {
+    background-color: #4e0101a8;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.boton {
+    background: #530101;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px black;
+    top: 40%;
+    left: 60%;
+    transform: translate(-10%, -20%);
+}
+
+.boton:active {
+    background-color: #8d0404;
+    color: #b7f0e4;
+}
+
+.boton {
+    animation: mover 1.5s infinite;
+}
+
+.PaginaDeInicio {
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.frase {
+    text-align: center;
+}
+
+/* Contenedor del formulario */
+.formulario-final {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Párrafo descriptivo */
+.formulario-final p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo de las etiquetas */
+.formulario-final label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilo de los campos de entrada */
+.formulario-final input[type="text"],
+.formulario-final input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón */
+.formulario-final button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-final button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #530101;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+

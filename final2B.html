@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librojuego</title>
+    <link rel="stylesheet" href="./Css/librojuego.css">
+</head>
+<body>
+    <header>
+        <div class="contenidoDelHeader">
+        <img id="ImagenPresentacion" src="./Multimedia/imagenheader.jpg"
+        alt=" logo de presentacion" title="logo de portada" height="400" width="1550"></img>
+        <h1 id="titulo">El viaje temporal</h1>
+        </div>
+    </header>
+    <main>
+        <audio id="musicaFondo"loop>
+            <source src="./Multimedia/musicadefondo.mp3" type="audio/mp3">
+        </audio>
+        <button id="playAudio">Reproducir Música</button>
+        <section class="cap1imagen">
+            <article class="CapituloUno">
+                <h2>Final: El Héroe del Pasado</h2>
+                <p id="primerCapitulo">
+                  Alex y Victor trabajan juntos para enfrentarse a Drake. 
+                  Logran proteger el ChronoBolt y crear un futuro brillante. 
+                  Alex regresa al presente, donde descubre que sus acciones han transformado a Rock Valley en una utopía.
+                </p>
+            </article>
+            <img src="./Multimedia/Final 4.jpg" alt="Final4" title="Final4" width="350" height="380" class="imagen1"></img>
+            
+        </section>
+        <div class="PaginaDeInicio">
+            <div class="formulario-final">
+                <p>Ingresa tus datos para registrar tu puntaje.</p>
+                <form>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br><br>
+                    <input type="text" id="pais" name="pais" placeholder="Pais" required><br><br>
+                    <input type="email" id="mail" name="mail" placeholder="Correo" required><br><br>
+                    <button type="submit" class="RegPun">Registrar Puntaje</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./Js/librojuego.js" defer></script>
+
+    <footer>
+        <hr>
+        <P>&copy;Creado por Agustin Manuel Alfonso.</P>
+        <p>DNI:45.128.822</p>
+    </footer>
+    
+</body>
+</html>

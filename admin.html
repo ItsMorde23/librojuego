@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin-LibroJuegoAdmin</title>
+    <link rel="stylesheet" href="./Css/AdminStyles.css">
+</head>
+<body>
+    <header>
+        <div class=" contenidoDelHeader">
+        <img id="ImagenPresentacion" src="./Multimedia/imagenheader.jpg"
+        alt=" logo de presentacion" title="logo de portada" height="400" width="1550"></img>
+        <h1 id="titulo"> Administrador Del Librojuego </h1>
+        </div>
+    </header>
+    <main>
+        <div class="welcome" id="bienvenida"></div>
+
+        <section class="abm-section">
+            <h2>Alta de capítulos</h2>
+            <form>
+                <label for="titulo-capitulo">Título del capítulo:</label>
+                <input type="text" id="titulo-capitulo" placeholder="Escribe el título del capítulo">
+
+                <label for="contenido-capitulo">Contenido:</label>
+                <textarea id="contenido-capitulo" rows="5" placeholder="Escribe el contenido del capítulo"></textarea>
+
+                <button type="boton">Agregar capítulo</button>
+            </form>
+        </section>
+
+        <section class="abm-section">
+            <h2>Baja de capítulos</h2>
+            <form>
+                <label for="id-capitulo">ID del capítulo a eliminar:</label>
+                <input type="text" id="id-capitulo" placeholder="Escribe el ID del capítulo">
+
+                <button type="boton">Eliminar capítulo</button>
+            </form>
+        </section>
+
+        <section class="abm-section">
+            <h2>Modificación de capítulos</h2>
+            <form>
+                <label for="id-capitulo-mod">ID del capítulo a modificar:</label>
+                <input type="text" id="id-capitulo-mod" placeholder="Escribe el ID del capítulo">
+
+                <label for="nuevo-contenido">Nuevo contenido:</label>
+                <textarea id="nuevo-contenido" rows="5" placeholder="Escribe el nuevo contenido"></textarea>
+
+                <button type="boton">Modificar capítulo</button>
+            </form>
+        </section>
+
+        <a href="./index.html" class="home-link">Volver al Inicio</a>
+    </main>
+    <script src="./Js/admin.js"></script>
+    <footer>
+        <hr>
+        <P>&copy;Creado por Agustin Manuel Alfonso.</P>
+        <p>DNI:45.128.822</p>
+    </footer>
+</body>
+</html>

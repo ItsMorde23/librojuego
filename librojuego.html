@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librojuego</title>
+    <link rel="stylesheet" href="./Css/librojuego.css">
+</head>
+<body>
+    <header>
+        <div class="contenidoDelHeader">
+        <img id="ImagenPresentacion" src="./Multimedia/imagenheader.jpg"
+        alt=" logo de presentacion" title="logo de portada" height="400" width="1550"></img>
+        <h1 id="titulo">El viaje temporal</h1>
+        </div>
+    </header>
+    <main>
+        <audio id="musicaFondo"loop>
+            <source src="./Multimedia/musicadefondo.mp3" type="audio/mp3">
+        </audio>
+        <button id="playAudio">Reproducir Música</button>
+        <section class="cap1imagen">
+            <article class="CapituloUno">
+                <h2>Capítulo 1: El Primer Viaje</h2>
+                <p id="primerCapitulo">El ChronoBolt se activa por error cuando Alex, 
+                    intentando evitar que el perro de Victor entre al auto, pisa accidentalmente el acelerador. 
+                    En un abrir y cerrar de ojos, el mundo a su alrededor cambia. 
+                    La sensación es como caer por un túnel de luz mientras los segundos se estiran como horas. 
+                    ¡Boom! El auto aterriza en un mundo desconocido. Cuando Alex sale del ChronoBolt, 
+                    ve que está en el año 2054. La ciudad de Rock Valley se ha transformado por completo: 
+                    edificios flotantes, robots caminando por las calles, y pantallas holográficas cubren cada esquina. 
+                    Sin embargo, algo no encaja. La gente parece vivir bajo un régimen de control. 
+                    Carteles con la cara de un hombre llamado Luthor Drake están por todas partes. 
+                    El futuro está lejos de ser un paraíso.
+                    Mientras Alex reflexiona, un dron de vigilancia lo detecta. “Ciudadano no registrado. Identifíquese o será arrestado”. Alex entra en pánico.
+                </p>
+            </article>
+            <img src="./Multimedia/Capitulo1.jpg" alt="Capitulo1" title="Capitulo1" width="350" height="380" class="imagen1"></img>
+            
+        </section>
+        <div class="contenedor">
+            <section class="frase">
+                <h2>Una Dificl Decisión De Tomar</h2>
+            </section>
+            <button class="boton" id="botoncap1.0">A) Escapar y explorar el futuro para entender qué salió mal.</button><br>
+            <button class="boton" id="botoncap1.1">B) Buscar inmediatamente la forma de regresar al presente para evitar este futuro.</button>
+        </div>
+        <div class="PaginaDeInicio">
+            <a href="./index.html" class="boton">Abandonar aventura</a>
+        </div>
+    </main>
+
+    <script src="./Js/librojuego.js" defer></script>
+
+    <footer>
+        <hr>
+        <P>&copy;Creado por Agustin Manuel Alfonso.</P>
+        <p>DNI:45.128.822</p>
+    </footer>
+    
+</body>
+</html>
