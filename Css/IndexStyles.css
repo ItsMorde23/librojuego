@@ -159,13 +159,17 @@ main {
 }
 
 .imagenportada {
-    margin-left: 25%;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Hace que la imagen sea responsive */
+    height: auto; /* Mantiene las proporciones de la imagen */
 }
 
 .aventura {
     background-color: white;
     border-radius: 50px;
     padding: 50px;
+    text-align: center;
 }
 
 footer {
